@@ -1,8 +1,9 @@
 
 body {
     background-color: #d9dcd6;
-}
 
+}
+/* HEADER / NAV BAR STYLES START*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -10,7 +11,7 @@ header {
     color: #ffffff;
 }
 
-/* HEADER / NAV BAR STYLES START*/
+
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -59,11 +60,13 @@ p {
 /* END HERO STYLES  */
 
 /* Title styles */
+/* ! need to improve styling and alignment */
 .section-title {
 padding-right: 100px;
 text-align: left;
 
 }
+/* Body styles */
 
 /* ABOUT ME */
 .intro {
@@ -79,7 +82,7 @@ text-align: left;
     margin-left: 50px;
     max-height: 200px;
   }
-
+ /* !improve the formatting here  */
 .intro p {
     line-height: 1.7;
     width: 100%;
@@ -91,11 +94,12 @@ text-align: left;
 
  /* END ABOUT ME */
  
-  /* WORK */
+  /* WORK styles */
 
  
 
   /* WORK CONTENT STYLES START */
+  /* ! work on improving flex to ensure portfolio can grow accordingly */
 
   .content-work {
     width: 100%;
@@ -121,6 +125,7 @@ text-align: left;
   }
 
 /* image input for work section */
+/* !need to adjust for image to link to site instead of linking text! */
     #horiseon {
     background-image: url(../images/horiseon-background.jpeg);
     background-size:cover;
@@ -143,6 +148,7 @@ text-align: left;
 }
 /* end image input for work section */
 
+ /*END Work styles   */
   
 /* start contact me styles */
     .contacts {
@@ -155,18 +161,19 @@ text-align: left;
         text-align:left;
         padding-bottom: 150px;
   }
-
+ /* !need to go back and fix alignment! */
   .contact h2 {
     flex: 1;
-
   }
-
+ /* adjust font in contact section !fix color issue! */
   .contact-info {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #12023f;
     font-size: 20px;
   }
 
-  /* Utilities */
+   /* End contact me styles */
+
+  /* !Need to add mobile responsivness!  */
   
 
